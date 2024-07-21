@@ -4,9 +4,10 @@ import { Map, Source } from "react-map-gl/maplibre";
 import { Protocol } from "pmtiles";
 
 import "maplibre-gl/dist/maplibre-gl.css";
-import { PositronGLStyleLayers } from "./styles/positron-gl-style";
+//import { PositronGLStyleLayers } from "./styles/positron-gl-style";
+import { FiordColorGLStyleLayers } from "./styles/fiord-color-gl-style";
 
-const layers = PositronGLStyleLayers;
+const layers = FiordColorGLStyleLayers;
 
 const App: React.FC = () => {
   useEffect(() => {

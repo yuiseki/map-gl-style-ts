@@ -1,6 +1,6 @@
 import { Layer } from "react-map-gl/maplibre";
 
-export const PositronGLStyleBoundaryCountryFromZ5ToMax: React.FC = () => {
+export const FiordColorGLStyleBoundaryCountryFromZ5ToMax: React.FC = () => {
   return (
     <Layer
       id="boundary-country-z5-max"
@@ -9,7 +9,6 @@ export const PositronGLStyleBoundaryCountryFromZ5ToMax: React.FC = () => {
       source="openmaptiles"
       source-layer="boundary"
       minzoom={5}
-      maxzoom={24}
       filter={["==", "admin_level", 2]}
       layout={{
         "line-cap": "round",
@@ -24,8 +23,8 @@ export const PositronGLStyleBoundaryCountryFromZ5ToMax: React.FC = () => {
             [22, 4],
           ],
         },
-        "line-color": "rgb(230, 204, 207)",
-        "line-opacity": 1,
+        "line-color": "hsl(214, 63%, 76%)",
+        "line-opacity": 0.56,
         "line-width": {
           base: 1.1,
           stops: [
