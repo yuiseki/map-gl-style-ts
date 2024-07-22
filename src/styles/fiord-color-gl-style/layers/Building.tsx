@@ -12,10 +12,10 @@ export const FiordColorGLStyleBuilding: React.FC = () => {
       filter={["==", "$type", "Polygon"]}
       layout={{ visibility: "visible" }}
       paint={{
-"fill-antialias": false,
-"fill-color": "hsla(232, 47%, 18%, 0.65)",
-"fill-opacity": 0.25
-}}
+        "fill-antialias": false,
+        "fill-color": "hsla(232, 47%, 18%, 0.65)",
+        "fill-opacity": 0.25,
+      }}
     />
   );
-}
+};

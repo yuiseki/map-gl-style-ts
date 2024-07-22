@@ -11,9 +11,9 @@ export const FiordColorGLStylePark: React.FC = () => {
       filter={["==", "$type", "Polygon"]}
       layout={{ visibility: "visible" }}
       paint={{
-"fill-color": "hsl(204, 17%, 35%)",
-"fill-opacity": 0.3
-}}
+        "fill-color": "hsl(204, 17%, 35%)",
+        "fill-opacity": 0.3,
+      }}
     />
   );
-}
+};

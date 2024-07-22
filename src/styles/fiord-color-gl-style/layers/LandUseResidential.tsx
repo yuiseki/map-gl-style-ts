@@ -12,7 +12,7 @@ export const FiordColorGLStyleLandUseResidential: React.FC = () => {
       filter={[
         "all",
         ["==", "$type", "Polygon"],
-        ["==", "subclass", "residential"],
+        ["==", "class", "residential"],
       ]}
       layout={{ visibility: "visible" }}
       paint={{

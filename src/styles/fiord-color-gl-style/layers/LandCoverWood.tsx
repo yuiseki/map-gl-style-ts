@@ -3,8 +3,8 @@ import { Layer } from "react-map-gl/maplibre";
 export const FiordColorGLStyleLandCoverWood: React.FC = () => {
   return (
     <Layer
-      id="landcover_wood"
-      key="landcover_wood"
+      id="landcover-wood"
+      key="landcover-wood"
       type="fill"
       source="openmaptiles"
       source-layer="landcover"

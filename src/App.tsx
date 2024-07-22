@@ -5,9 +5,10 @@ import { Protocol } from "pmtiles";
 
 import "maplibre-gl/dist/maplibre-gl.css";
 //import { PositronGLStyleLayers } from "./styles/positron-gl-style";
-import { FiordColorGLStyleLayers } from "./styles/fiord-color-gl-style";
+//import { FiordColorGLStyleLayers } from "./styles/fiord-color-gl-style";
+import { YuisekinGLStyleLayers } from "./styles/yuisekin-gl-style";
 
-const layers = FiordColorGLStyleLayers;
+const layers = YuisekinGLStyleLayers;
 
 const App: React.FC = () => {
   useEffect(() => {
