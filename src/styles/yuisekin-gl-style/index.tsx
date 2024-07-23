@@ -83,7 +83,6 @@ export const YuisekinGLStyleLayers = [
       source="openmaptiles"
       source-layer="waterway"
       filter={["==", "$type", "LineString"]}
-      layout={{ visibility: "visible" }}
       paint={{
         "line-color": "hsl(232, 23%, 28%)",
         "line-opacity": 0.8,
