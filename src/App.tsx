@@ -8,8 +8,6 @@ import "maplibre-gl/dist/maplibre-gl.css";
 //import { FiordColorGLStyleLayers } from "./styles/fiord-color-gl-style";
 import { YuisekinGLStyleLayers } from "./styles/yuisekin-gl-style";
 
-const layers = YuisekinGLStyleLayers;
-
 const App: React.FC = () => {
   useEffect(() => {
     const protocol = new Protocol();
@@ -48,7 +46,7 @@ const App: React.FC = () => {
           maxzoom={14}
           minzoom={0}
         >
-          {layers?.map((layer) => layer)}
+          <YuisekinGLStyleLayers />
         </Source>
       </Map>
     </>

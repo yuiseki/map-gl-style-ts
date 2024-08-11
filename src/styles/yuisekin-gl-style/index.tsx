@@ -1,6 +1,6 @@
 import { Layer } from "react-map-gl/maplibre";
 
-export const YuisekinGLStyleLayers = (
+export const YuisekinGLStyleLayers: React.FC = () => (
   <>
     <Layer
       id="background"

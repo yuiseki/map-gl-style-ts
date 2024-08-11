@@ -49,7 +49,7 @@ import { PositronGLStyleWaterName } from "./layers/WaterName";
 import { PositronGLStyleWaterWay } from "./layers/WaterWay";
 
 // order is important!!
-export const PositronGLStyleLayers = (
+export const PositronGLStyleLayers = () => (
   <>
     <PositronGLStyleBackground />
     <PositronGLStylePark />

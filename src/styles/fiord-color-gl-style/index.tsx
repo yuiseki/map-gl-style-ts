@@ -47,7 +47,7 @@ import { FiordColorGLStyleWater } from "./layers/Water";
 import { FiordColorGLStyleWaterName } from "./layers/WaterName";
 import { FiordColorGLStyleWaterWay } from "./layers/WaterWay";
 
-export const FiordColorGLStyleLayers = (
+export const FiordColorGLStyleLayers = () => (
   <>
     <FiordColorGLStyleBackground />
     <FiordColorGLStyleWater />
