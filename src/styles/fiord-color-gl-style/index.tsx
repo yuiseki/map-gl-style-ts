@@ -47,53 +47,55 @@ import { FiordColorGLStyleWater } from "./layers/Water";
 import { FiordColorGLStyleWaterName } from "./layers/WaterName";
 import { FiordColorGLStyleWaterWay } from "./layers/WaterWay";
 
-export const FiordColorGLStyleLayers = [
-  <FiordColorGLStyleBackground key="background" />,
-  <FiordColorGLStyleWater key="water" />,
-  <FiordColorGLStyleLandCoverIceShelf key="landcover-ice-shelf" />,
-  <FiordColorGLStyleLandUseResidential key="landuse-residential" />,
-  <FiordColorGLStyleLandCoverWood key="landcover-wood" />,
-  <FiordColorGLStylePark key="park" />,
-  <FiordColorGLStyleParkOutline key="park-outline" />,
-  <FiordColorGLStyleWaterWay key="waterway" />,
-  <FiordColorGLStyleBuilding key="building" />,
-  <FiordColorGLStyleTunnelMotorWayCasing key="tunnel-motorway-casing" />,
-  <FiordColorGLStyleTunnelMotorWayInner key="tunnel-motorway-inner" />,
-  <FiordColorGLStyleAeroWayTaxiWay key="aeroway-taxiway" />,
-  <FiordColorGLStyleAeroWayRunWayCasing key="aeroway-runway-casing" />,
-  <FiordColorGLStyleAeroWayArea key="aeroway-area" />,
-  <FiordColorGLStyleAeroWayRunWay key="aeroway-runway" />,
-  <FiordColorGLStyleRoadAreaPier key="road-area-pier" />,
-  <FiordColorGLStyleRoadPier key="road-pier" />,
-  <FiordColorGLStyleHighWayPath key="highway-path" />,
-  <FiordColorGLStyleHighWayMinor key="highway-minor" />,
-  <FiordColorGLStyleHighWayMajorCasing key="highway-major-casing" />,
-  <FiordColorGLStyleHighWayMajorInner key="highway-major-inner" />,
-  <FiordColorGLStyleHighWayMajorSubtle key="highway-major-subtle" />,
-  <FiordColorGLStyleHighWayMotorWayCasing key="highway-motorway-casing" />,
-  <FiordColorGLStyleHighWayMotorWayInner key="highway-motorway-inner" />,
-  <FiordColorGLStyleHighWayMotorWaySubtle key="highway-motorway-subtle" />,
-  <FiordColorGLStyleRailWayTransit key="railway-transit" />,
-  <FiordColorGLStyleRailWayTransitDashLine key="railway-transit-dash-line" />,
-  <FiordColorGLStyleRailWayService key="railway-service" />,
-  <FiordColorGLStyleRailWayServiceDashLine key="railway-service-dash-line" />,
-  <FiordColorGLStyleRailWay key="railway" />,
-  <FiordColorGLStyleRailWayDashLine key="railway-dash-line" />,
-  <FiordColorGLStyleWaterName key="water-name" />,
-  <FiordColorGLStyleHighWayNameOther key="highway-name-other" />,
-  <FiordColorGLStyleHighWayRef key="highway-ref" />,
-  <FiordColorGLStyleBoundaryState key="boundary-state" />,
-  <FiordColorGLStyleBoundaryCountryFromZ0ToZ4 key="boundary-country-from-z0-to-z4" />,
-  <FiordColorGLStyleBoundaryCountryFromZ5ToMax key="boundary-country-from-z5-to-max" />,
-  <FiordColorGLStylePlaceOther key="place-other" />,
-  <FiordColorGLStylePlaceSuburb key="place-suburb" />,
-  <FiordColorGLStylePlaceVillage key="place-village" />,
-  <FiordColorGLStylePlaceTown key="place-town" />,
-  <FiordColorGLStylePlaceCity key="place-city" />,
-  <FiordColorGLStylePlaceCityLarge key="place-city-large" />,
-  <FiordColorGLStylePlaceState key="place-state" />,
-  <FiordColorGLStylePlaceCountryOther key="place-country-other" />,
-  <FiordColorGLStylePlaceCountryMinor key="place-country-minor" />,
-  <FiordColorGLStylePlaceCountryMajor key="place-country-major" />,
-  <FiordColorGLStylePlaceContinent key="place-continent" />,
-];
+export const FiordColorGLStyleLayers = (
+  <>
+    <FiordColorGLStyleBackground />
+    <FiordColorGLStyleWater />
+    <FiordColorGLStyleLandCoverIceShelf />
+    <FiordColorGLStyleLandUseResidential />
+    <FiordColorGLStyleLandCoverWood />
+    <FiordColorGLStylePark />
+    <FiordColorGLStyleParkOutline />
+    <FiordColorGLStyleWaterWay />
+    <FiordColorGLStyleBuilding />
+    <FiordColorGLStyleTunnelMotorWayCasing />
+    <FiordColorGLStyleTunnelMotorWayInner />
+    <FiordColorGLStyleAeroWayTaxiWay />
+    <FiordColorGLStyleAeroWayRunWayCasing />
+    <FiordColorGLStyleAeroWayArea />
+    <FiordColorGLStyleAeroWayRunWay />
+    <FiordColorGLStyleRoadAreaPier />
+    <FiordColorGLStyleRoadPier />
+    <FiordColorGLStyleHighWayPath />
+    <FiordColorGLStyleHighWayMinor />
+    <FiordColorGLStyleHighWayMajorCasing />
+    <FiordColorGLStyleHighWayMajorInner />
+    <FiordColorGLStyleHighWayMajorSubtle />
+    <FiordColorGLStyleHighWayMotorWayCasing />
+    <FiordColorGLStyleHighWayMotorWayInner />
+    <FiordColorGLStyleHighWayMotorWaySubtle />
+    <FiordColorGLStyleRailWayTransit />
+    <FiordColorGLStyleRailWayTransitDashLine />
+    <FiordColorGLStyleRailWayService />
+    <FiordColorGLStyleRailWayServiceDashLine />
+    <FiordColorGLStyleRailWay />
+    <FiordColorGLStyleRailWayDashLine />
+    <FiordColorGLStyleWaterName />
+    <FiordColorGLStyleHighWayNameOther />
+    <FiordColorGLStyleHighWayRef />
+    <FiordColorGLStyleBoundaryState />
+    <FiordColorGLStyleBoundaryCountryFromZ0ToZ4 />
+    <FiordColorGLStyleBoundaryCountryFromZ5ToMax />
+    <FiordColorGLStylePlaceOther />
+    <FiordColorGLStylePlaceSuburb />
+    <FiordColorGLStylePlaceVillage />
+    <FiordColorGLStylePlaceTown />
+    <FiordColorGLStylePlaceCity />
+    <FiordColorGLStylePlaceCityLarge />
+    <FiordColorGLStylePlaceState />
+    <FiordColorGLStylePlaceCountryOther />
+    <FiordColorGLStylePlaceCountryMinor />
+    <FiordColorGLStylePlaceCountryMajor />
+    <FiordColorGLStylePlaceContinent />
+  </>
+);
